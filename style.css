@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
+
+/* ------------------------------------- BİRDEN FAZLA YERLERDE ORTAK KULLANILAN ve GENEL CSS ------------------------------------- */
+
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title-joint{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    background-color: #fff;
+    position: sticky;
+    padding: 4px;
+    top: 0px;
+    z-index: 9999;
+}
+
+.page-center{
+    width: 960px;
+    margin: 0 auto;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* --------------------------------------- Menü Logo --------------------------------------- */
+.logo{
+    text-decoration: none;
+}
+
+.logo-new{
+    display:inline-block;
+    position: relative;
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 21px;
+    margin-left: 10px;
+    color: black;
+}
+
+.logo-new::after{
+    content: "";
+    border: solid 3px black;
+    display: block;
+    position: absolute;
+    right: 4px;
+    top: 25px;
+    width: 10px;
+}
+
+/* --------------------------------------- Nav Menü --------------------------------------- */
+
+.menu-nav{
+    display: inline-block;
+    position: absolute;
+    width: 379px;
+    right: 301px;
+    top: 13px;
+}
+
+.nav-links{
+    list-style-type: none;
+}
+
+.nav-item{
+    float: left;
+}
+
+.nav-link{
+    text-decoration: none;
+    padding: 25px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: black;
+}
+
+
+
+
+/* --------------------------------------- Sosyal medya --------------------------------------- */ 
+
+.social-medias{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 76px;
+    padding: 0px;
+}
+
+.media-fellow{
+    display: inline-block;
+    position: relative;
+    padding: 11px;
+}
+
+.google{
+    padding-bottom: 0px;
+}
+
+.social-medias .media-item .media-fellow img{
+    width: 12px;
+}
+
+.facebook, .google {
+    left: 5px;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    
+}
+.facebook, .twitter{
+    border-bottom: 1px solid #efefef;
+}
+
+.media-item{
+    text-decoration: none;
+}
+
+
+/* --------------------------------------- Büyük Resim  ve Üstündeki yazı--------------------------------------- */
+
+.slider-inc{
+    position: relative;
+}
+
+.take-a-cup{
+    position: absolute;
+    right: 650px;
+    bottom: 390px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.enjoy-it{
+    position: absolute;
+    right: 535px;
+    bottom: 390px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.enjoy-it::after{
+    content: "";
+    border: solid 3px black;
+    display: block;
+    position: absolute;
+    right: 4px;
+    width: 15px;
+}
+
+.red-coffe{
+    width: 100%;
+    opacity: 0.9;
+}
+
+
+
+/* --------------------------------------- Hakkımda Kısmı (Abous Us) --------------------------------------- */
+
+.about-us{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.small-about{
+    text-align: center;
+    margin: 10px;
+}
+
+.wrap-bottom{
+    border-bottom: solid 3px #efefef;
+    margin-bottom: 50px;
+}
+
+.about-big{
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.about-big::after{
+    content: "";
+    border: solid 2px black;
+    display: block;
+    position: relative;
+    width: 17px;
+    left: 70px;
+}
+
+.p-intro{
+    text-align: center;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.our-portfolio{
+    display: inline-block;
+    border: solid 3px black;
+    padding: 9px 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.images-position{
+    font-size: 16px;
+    color: black;
+    position: relative;
+    right: 5px;
+}
+
+.caption{
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    color: black;
+}
+
+.our-team-container{
+    padding: 0px;
+}
+
+.our-team-write{
+    margin: 0px 0px 40px 10px;
+}
+
+
+.photo-div1, .photo-div2, .photo-div3{
+    width: 296px;
+    margin: 0 10px 60px 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+span{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.photo-social{
+    position: relative;
+}
+
+.our-ul{
+    list-style: none;
+    border-top: solid 3px #efefef;
+    border-bottom: solid 3px #efefef;
+    width: 100px;
+    /*margin-left: calc(50% - 75px);
+    */position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -35px;
+    padding: 8px 30px;
+    font-size: 15px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.our-ul li{
+    display: inline-block;
+    padding: 0px 6px;
+    width: 10px;
+
+}
+
+
+/* --------------------------------------- Our Skills --------------------------------------- */
+
+
+.skill-title-small{
+    margin: 0px 10px 10px 10px;
+}
+
+.our-skills-div2{
+    width: 520px;
+    display: inline-block;
+    position: relative;
+    bottom: 70px;
+}
+
+.our-skills-div2 h1{
+    font-size: 28px;
+    font-weight: lighter;
+    margin: 0px 0px 0px 10px;
+}
+
+.our-skills-div2 h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 0px 12px 10px;
+}
+
+.our-skills-div2 p{
+    margin: 0px 0px 30px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.our-skills-div2 a{
+    margin: 0px 0px 0px 10px;
+    font-size: 16px;
+    border: 3px solid #111111;
+    padding: 9px 20px;
+    font-weight: 700;
+}
+
+.our-skills-div2 i{
+    margin: 0px 10px 0px 0px;
+}
+
+
+.our-skills-div3{
+    width: 400px;
+    margin: 24px 10px 0px 10px;
+    display: inline-block;
+
+}
+
+.skill-bar{
+    margin-bottom: 42px;
+}
+
+.skillbar-holder{
+    background-color: #111111;
+    height: 3px;
+    position: relative;
+}
+
+.skillbar-title{
+    color: #111111;
+    left: 0px;
+    position: absolute;
+    top: -28px;
+    z-index: 10;
+}
+
+.percentage{
+    background: #efefef;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.percentage span{
+    color: #111111;
+    font-size: 11px;
+    padding: 4px;
+    position: absolute;
+    right: -14px;
+    top: -32px;
+}
+
+.percent90{
+    width: 90%;
+}
+
+.percent50{
+    width: 50%;
+}
+
+.percent95{
+    width: 95%;
+}
+
+.percent70{
+    width: 70%;
+}
+
+.percent60{
+    width: 60%;
+}
+
+.kayan-foto{
+    opacity: .8;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-image:url(./assets/img/parallax1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.on-div{
+    background-color:black;
+}

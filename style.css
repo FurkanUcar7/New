@@ -348,6 +348,8 @@ span{
     background-color: #111111;
     height: 3px;
     position: relative;
+    font-weight: bold;
+    font-size: 13px;
 }
 
 .skillbar-title{
@@ -396,15 +398,89 @@ span{
 }
 
 .kayan-foto{
-    opacity: .8;
-    min-height: 300px;
-    background-repeat: no-repeat;
+    height: 300px;
     background-image:url(./assets/img/parallax1.jpg);
-    background-attachment: fixed;
     background-size: cover;
-    
+    background-attachment: fixed;
+    background-position: 300% -102px;
+    text-align: center;
 }
 
-.on-div{
-    background-color:black;
+.kayan-foto-inclusive{
+    width: 500px;
+    display: inline-block;
+    height: 80%;
+    margin-top: 30px;
+    position: relative;
+}
+
+.left-arrow{
+    position: absolute;
+    left: 0px;
+    top: 120px;
+}
+
+.right-arrow{
+    position: absolute;
+    right: 0px;
+    top: 120px;
+}
+
+.rocket{
+    font-size: 50px;
+    position: absolute;
+    left: 225px;
+    top: 30px;
+}
+
+.kf-title{
+    font-weight: bold;
+    position: absolute;
+    left: 180px;
+    top: 70px;
+}
+
+.kf-100{
+    font-weight: bold;
+    font-size: 100px;
+    margin: 100px 0px 0px 0px;
+}
+
+.services-padding{
+    padding: 60px 0px;
+}
+
+.our-services-title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.our-services-title::after{
+    content: "";
+    border: 0.110rem solid black;
+    display: block;
+    position: absolute;
+    font-weight: bold;
+    left: 522px;
+    width: 16px;
+}
+
+.services-element{
+    display: inline-block;
+    text-align: center;
+    width: 297px;
+    margin: 0px 10px 40px 10px;
+}
+
+.element-p{
+    color: #999;
+    font-family: 'Open Sans';
+    font-size: 13px;
+}
+
+.services-icon{
+    margin-right: 3px;
 }

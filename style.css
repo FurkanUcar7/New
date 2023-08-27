@@ -414,7 +414,7 @@ span{
     background-image:url(./assets/img/parallax1.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: 300% -102px;
+    background-position: 300% -182px;
     text-align: center;
 }
 
@@ -459,7 +459,7 @@ span{
 }
 
 .services-padding{
-    padding: 60px 0px;
+    padding: 60px 0px 30px;
 }
 
 .our-services-title{
@@ -491,9 +491,261 @@ span{
     color: #999;
     font-family: 'Open Sans';
     font-size: 13px;
+    line-height: 1.5;
 }
 
 .services-icon{
     margin-right: 3px;
 }
 
+/* ---------------------------------------  Mouse Kayan Foto alanı --------------------------------------- */
+
+.mouse-foto{
+    position: relative;
+    opacity: .8;
+    height: 530px;
+    background-image: url(./assets/img/parallax2.jpg);
+    background-attachment: fixed;
+    background-position: 300% -121px;
+    /* background-position: center top; */
+    background-repeat: repeat-y;
+    background-size: cover;
+    min-height: 500px;
+    background-color: #fafafa;
+}
+
+.alttaki-gri-div{
+    width: 100%;
+    height: 230px;
+    background-color:rgba(239,239,239,0.95);
+    position: absolute;
+    bottom: 0px;
+}
+
+.mouse-p{
+    margin: 100px 360px 0px;
+    line-height: 30px;
+    font-size: 20px;
+    font-style: italic;
+    color: #ffffff;;
+    display: inline-block;
+}
+
+.mouse-p2{
+    margin: 10px 360px 0px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.mouse-span{
+    font-style: italic;
+}
+
+.gri-div-text{
+    width: 300px;
+    margin-top: 50px;
+    display: inline-block;
+    line-height: 21px;
+}
+
+.gri-div-text p{
+    font-size: 13px;
+    color: #999999;
+}
+
+.gri-div-text h2{
+    font-size: 18px;
+    
+}
+
+.gri-icons{
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.gri-div-icons{
+    display: inline-block;
+}
+
+
+.gri-div-icons li{
+    list-style: none;
+    float: left;
+}
+
+/* ---------------------------------- Toplu fotolar alanı Portfolio  ----------------------------------------- */
+
+.portfolio-section{
+    padding-bottom: 70px;
+    border-bottom: 3px solid #efefef;
+}
+
+.portfolio{
+    position: relative;
+    margin-left: 10px;
+}
+
+.portfolio-title{
+    text-align: center;
+    margin: 60px 0px 30px 420px;
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+}
+
+.portfolio-title::after{
+    content: "";
+    border-bottom: 3px solid black;
+    display: block;
+    width: 18px;
+    position: absolute;
+    right: 2px;
+}
+
+.portfolio-foto{
+    display: inline-block;
+}
+
+
+
+.w1, .w6{
+    margin-right: 15px;
+    position: relative;
+}
+
+.w3, .w7{
+    position: relative;
+}
+
+.w2,.w4{
+    position: relative;
+    margin: 15px 15px 15px 0px;
+}
+
+
+.w5{
+    position: relative;
+    margin: 15px 0px;
+}
+
+
+.w-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #999999;
+    display: none;
+    text-align: center;
+}
+
+
+.w1:hover .w-overlay, .w3:hover .w-overlay, .w2:hover .w-overlay, .w4:hover .w-overlay, .w5:hover .w-overlay, .w6:hover .w-overlay, .w7:hover .w-overlay{
+    display: block;
+    background-color: rgba(254, 251, 253, .9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ---------------------------------- Contact Us alanı   ----------------------------------------- */
+
+.container-contact{
+    border-bottom: 3px solid #efefef;
+    padding-bottom: 70px;
+}
+
+.contact-title{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.contact-title::after{
+    content: "";
+    border-bottom: 3px solid black;
+    display: inline-block;
+    position: relative;
+    width: 18px;
+    left: -20px;
+    top: 8px;
+}
+
+.contact-us-div1{
+    width: 300px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    bottom: 447px;
+}
+
+.supoort-work{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.supoort-work-p{
+    font-size: 13px;
+    margin: 0;
+    color: #999999;
+}
+
+.contact-us-div1 ul li{
+    list-style-type: none;
+}
+
+.contact-us-div1 ul{
+    display: inline;
+    margin: 0;
+}
+
+.contact-us-div2{
+    width: 620px;
+    display: inline-block;
+}
+
+.contact-input{
+    display: block;
+    border: 1px solid #EFEFEF;
+    height: 40px;
+    margin-bottom: 20px;
+    width: 450px;
+}
+
+.contact-label{
+    font-weight: bold;
+    color: #4D4D4D;
+    font-size: 14px;
+}
+
+.div2-title{
+    font-size: 18px;
+}
+
+.div2-p{
+    font-size: 13px;
+}
+
+.contacnt-label{
+    font-size: 14px;
+}
+.contact-us-div2 textarea{
+    height: 170px;
+    max-height: 200px;
+    min-height: 150px;
+    width: 630px;
+    font-size: 12px;
+}
+
+.contact-us-div2 a{
+    font-size: 16px;
+    border: 3px solid #111111;
+    padding: 9px 20px;
+    font-weight: 700;
+}
+
+.contact-us-div2 i{
+    margin: 0px 5px 0px;
+}
